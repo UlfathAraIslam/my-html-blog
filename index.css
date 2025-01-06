@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+.nav-items{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav-items li a {
+    text-decoration: none;
+    color: blue;
+}
+dt{
+    color: blue;
+    margin-bottom: 5px;
+}
