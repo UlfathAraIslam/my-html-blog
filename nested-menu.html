@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Menu</title>
+    <style>
+      nav>ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+      }
+      nav li:hover{
+        background-color: lightblue;
+      }
+      a {
+        text-decoration: none;
+        font-size: 40px;
+      }
+      nav li .dropdown{
+        display: none;
+        position: absolute;
+        background-color: lightgray;
+      }
+      nav li:hover >.dropdown{
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+            <a href="">Blog</a>
+            <!-- nested -->
+            <ul class="dropdown">
+                <li>
+                    <a href="">Blog</a>
+                    <!-- nested -->
+                    <ul class="dropdown">
+                        <li>
+                            <a href="">Blog</a>
+                            <!-- nested -->
+                        </li>
+                        <li><a href="">Elements</a></li>
+                        <li><a href="">Forms</a></li>
+                        <li><a href="">Tables</a></li>
+                      </ul>
+                </li>
+                <li><a href="">Elements</a></li>
+                <li><a href="">Forms</a></li>
+                <li><a href="">Tables</a></li>
+              </ul>
+        </li>
+        <li><a href="">Elements</a></li>
+        <li><a href="">Forms</a></li>
+        <li><a href="">Tables</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
