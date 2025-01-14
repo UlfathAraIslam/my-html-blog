@@ -37,6 +37,21 @@
         display: block;
         margin-bottom: 20px;
       }
+      /* Responsive login form */
+      .login-form-container{
+        display: flex;
+        justify-content: center;
+        border: 1px solid brown;
+      }
+      .login-form{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid blueviolet;
+        width: 50%;
+      }
+      .login-form input{
+        padding: 20px;
+      }
     </style>
   </head>
   <body>
@@ -131,5 +146,14 @@
       <input type="reset" value="Reset">
       <input type="submit" value="Submit">
     </form>
+    <!-- Login form -->
+    <h1>Login Form</h1>
+    <div class="login-form-container">
+      <form class="login-form">
+        <input type="email" placeholder="Your Email" required>
+        <input type="password" placeholder="Your Password" required>
+        <input type="submit" placeholder="Submit">
+      </form>
+    </div>
   </body>
 </html>
