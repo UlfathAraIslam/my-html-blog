@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query for responsive</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+        img{
+            width: 100%;
+        }
+
+        /* media query */
+        /* smaller device */
+    @media screen and (max-width:576px){
+        .container{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+    /* medium device */
+    @media screen and (min-width:577px) and (max-width: 992px){
+        .container{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: $1</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, est. Suscipit quasi voluptatem dolor voluptate, aperiam officia temporibus corporis harum.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 2</p>
+            <p>Incidunt est veritatis quisquam eaque doloribus illum, commodi ea aspernatur quam temporibus expedita libero et beatae consequatur? Alias, vitae repudiandae.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 3</p>
+            <p>Nam consequuntur atque perspiciatis, eius inventore odit unde dolores asperiores odio animi consequatur omnis, aut ab, in aliquid velit amet?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 4</p>
+            <p>Molestias quidem magni magnam maiores deserunt eligendi aut neque atque possimus officia laudantium vel recusandae voluptates, numquam, at saepe optio?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 5</p>
+            <p>Architecto culpa labore quas veritatis iste. Unde cupiditate, perferendis illo eligendi voluptate ut veritatis autem aliquam, distinctio suscipit deserunt ab?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 6</p>
+            <p>Optio, vel quae quidem nisi, natus fuga molestiae nam facilis labore ad quo modi impedit officiis! Ipsam suscipit sed nam.</p>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 7</p>
+            <p>Alias, ut. Illum consectetur, officiis exercitationem aliquam dolor, voluptates nemo voluptatibus ex voluptatem tempore numquam soluta dolorem, consequuntur enim sint!</p>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 8</p>
+            <p>Quam amet cumque numquam odit praesentium beatae, ea eaque iusto cupiditate eius non. Est pariatur laboriosam repudiandae ullam consequuntur dignissimos?</p>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 9</p>
+            <p>Beatae, soluta saepe. Autem excepturi voluptates officiis nisi, earum molestiae. Harum doloremque non quia, aspernatur recusandae voluptates nulla! Eos, tempora.</p>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 10</p>
+            <p>Cum ipsum, fugit enim aspernatur, amet ipsam necessitatibus doloremque, repellendus accusantium exercitationem perferendis officia! Ut eius quisquam ex? Similique, ducimus?</p>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 11</p>
+            <p>Excepturi aut illum quidem. Illum possimus ipsum id laboriosam esse repellat corrupti debitis placeat aut repellendus repudiandae praesentium, iure nulla.</p>
+        </div>
+        <div class="food">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/chara_elsa_795c95c3.jpeg?region=0,0,800,800" alt="">
+            <h3>Elsa</h3>
+            <p>Price: 12</p>
+            <p>Neque facilis sequi repudiandae nemo nulla aspernatur veniam distinctio, officiis nisi sint eligendi. Natus itaque modi rerum quis animi ut.</p>
+        </div>
+    </div>
+</body>
+</html>
