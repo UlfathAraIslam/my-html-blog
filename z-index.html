@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+        .swim-container{
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        img{
+            width: 50vw;
+
+        }
+        .box{
+            position: relative;
+            width: 200px;
+        }
+        .boy{
+            z-index: 14;
+        }
+        .ring{
+            top: -470px;
+            z-index: 10;
+        }
+        .water{
+            top: -750px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Z-Index</h1>
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="./assests/position/boy.svg" alt="">
+        </div>
+        <div class="box ring">
+            <img src="./assests/position/ring.svg" alt="">
+        </div>
+        <div class="box water">
+            <img src="./assests/position/water.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
