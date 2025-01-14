@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo Element</title>
+    <style>
+        h3::after{
+            content: '.pdf';
+            color: red;
+        }
+        h3::before{
+            content: 'start: ';
+            color: red;
+        }
+        div::first-letter{
+            font-size: 2em;
+        }
+        div::first-line{
+            background-color: aqua;
+        }
+        ::selection{
+            background-color: blueviolet;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h3>heading -1</h3>
+    <h3>heading -2</h3>
+    <h3>heading -3</h3>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima itaque vitae optio consectetur totam suscipit illo autem repellat assumenda temporibus Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident alias in voluptas libero commodi deserunt iste numquam repellendus facilis voluptatibus, est fugiat sapiente obcaecati natus tenetur eveniet sit facere ipsam ipsa non, a modi, aliquam vel! Deleniti libero ipsam magnam?!</div>
+    <div>Reiciendis saepe ratione magni nam, ad tempora quod repellat cupiditate doloribus tenetur quas, minus non odit ipsam recusandae dolorum qui. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae omnis incidunt, nostrum voluptatibus ratione est fuga sed! Nulla molestias deserunt illum sint labore. Quod possimus incidunt ut aliquam libero deleniti, asperiores quo modi ex, doloremque debitis eaque ipsa impedit nostrum?</div>
+    <div>Modi saepe sapiente vel. Assumenda dignissimos quam beatae laudantium alias. Ut corporis in laudantium repellendus non. Sequi optio voluptate facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, corrupti eligendi perspiciatis assumenda perferendis atque officiis fugit itaque nisi dolores quam quis, facere numquam fuga nobis eveniet dignissimos tempore deserunt. Impedit quisquam quia a voluptatum fuga, vitae optio delectus omnis!</div>
+</body>
+</html>
