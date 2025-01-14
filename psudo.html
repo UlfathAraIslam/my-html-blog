@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo class</title>
+    <style>
+        h1:hover{
+            background-color: blueviolet;
+            color: white;
+        }
+        input:focus{
+            border: none;
+            outline: 1px solid blueviolet;
+            color: blue;
+            padding: 20px;
+        }
+        a{
+            display: block;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        li{
+            font-weight: 900;
+            font-size: xx-large;
+            list-style: none;
+        }
+        li:first-child{
+            color: rebeccapurple;
+        }
+        li:last-child{
+            color: blue;
+        }
+        /* odd number */
+        li:nth-child(2n+1){
+            color: blueviolet;
+        }
+        /* even number */
+        li:nth-child(2n+2){
+            box-shadow:10px 5px 10px blueviolet ;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am psudo. Hove me!</h1>
+    <input type="text">
+    <a href="https://www.w3schools.com/cssref/css_ref_pseudo_classes.php">CSS Pseudo-classes Reference</a>
+    <a href="https://www.w3schools.com/cssref/css_ref_pseudo_elements.php">CSS Pseudo-elements</a>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+</body>
+</html>
