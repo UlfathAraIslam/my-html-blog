@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .box{
+            border: 5px dotted plum;
+            width: 200px;
+        }
+        /* .ring{
+            position: relative;
+            top: -30px;
+            left: 50px;
+        } */
+        /* .ring{
+            position: absolute;
+            top: 30px;
+        } */
+        /* .swim-container{
+            position: relative;
+        }
+        .ring{
+            position: absolute;
+            top: 60px;
+        } */
+        .dammy{
+            width: 200px;
+            height: 200px;
+            border: 2px solid peru;
+        }
+        .ring{
+            position: sticky;
+            top: 0;
+        }
+        .boy{
+            position: fixed;
+            top: 0;
+            right: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Position</h1>
+    <ul>
+        <ol>Static : <small>Default position</small></ol>
+        <ol>Relative: <small>It won't leave own position.</small></ol> <!
+        <ol>Absolute: <small>It will move according to it's parent. If parent is not there, it will move by the root of page</small></ol>
+        <ol>Fixed</ol>
+        <ol>Sticky</ol>
+    </ul>
+    <div class="swim-container">
+        <div class="boy box">
+            <img src="./assests/position/boy.svg" alt="">
+        </div>
+        <div class="ring box">
+            <img src="./assests/position/ring.svg" alt="">
+        </div>
+        <div class="water box">
+            <img src="./assests/position/water.svg" alt="">
+        </div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+        <div class="dammy"></div>
+    </div>
+</body>
+</html>
